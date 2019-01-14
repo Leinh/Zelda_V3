@@ -1,0 +1,60 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(images/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* The header */
+#header{
+    background-color: rgb(183, 206, 123);
+}
+#logo{
+  height: 100px; 
+  margin-left: 50%;
+  transform: translateX(-50%);
+    
+}
+@font-face{
+    font-family:"zelda";
+    src:url(images/The\ Wild\ Breath\ of\ Zelda.otf);
+}
+
+#menu1,#menu2,#menu3,#menu4{
+    font-family: zelda;
+    font-size: 26px;  
+  
+}
+
+#menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover{
+    color:brown;
+}
+
+
+
+
+
+
+
+
+/* The media queries */
+@media only screen and (max-width: 575px){
+body{
+    background-image: url(images/wallpaper.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+}
+
+@media only screen and (min-width: 576px){
+#header{
+    position:fixed;
+}
+}
