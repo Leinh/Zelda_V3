@@ -25,16 +25,16 @@ function getCookie(cname) {
     return "";
 }
 // Cookies are linked with the switch mode function:
-var css = 0;
+var css = 1;
 function night_mode() {
     if (css == 0) {
-        document.getElementById("day_mode").href = "style_nuit.css"
-        setCookie("css", "nuit", 5);
+        document.getElementById("day_mode").href = "style.css"
+        setCookie("css", "jour", 5);
         css = 1
     }
     else {
-        document.getElementById("day_mode").href = "style.css"
-        setCookie("css", "jour", 5);
+        document.getElementById("day_mode").href = "style_nuit.css"
+        setCookie("css", "nuit", 5);
         css = 0;
     }
     if (getCookie("css") == "nuit") {

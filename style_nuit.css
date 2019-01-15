@@ -114,11 +114,22 @@ footer #footer_text{
 
 
 /* The media queries */
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 971px){
     #ajax_content{
-    margin-top: 40px;
-    position: initial;
-    }
+        margin-top: 40px;
+        position: initial;
+        }
+
+        #switch_div{
+            position: absolute;
+            top: 110px;
+            right: 30px;
+            height: 40px;
+            width: 30px;
+            
+            font-size: 30px;
+          
+        }
 
 }
 
@@ -127,7 +138,7 @@ footer #footer_text{
     position:fixed;
 }
 #main_content{
-    margin-top: 200px;
+   margin-top: 200px;
     min-height: 1000px;
     }
 
@@ -143,6 +154,5 @@ footer #footer_text{
         margin-top: 200px;
         position:initial;
     }
-
+    
 }
-
