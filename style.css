@@ -10,6 +10,7 @@ body{
     background-image: url(images/wallpaper.jpg);
     background-size: auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -69,9 +70,36 @@ body{
 /* The content */
 #main_content{
     width: 100%;
+  
 }
 
+h2{
+    font-family:zelda;
+    text-align: center;
+    font-size: 48px;
+    color:gold;
+    text-shadow: 1px 1px 1px black;
+}
+p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+/* The footer */
+
+footer #footer_text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid rgb(183, 206, 123);
+}
+#about{
+    text-align: center;
+    font-family: zelda;
+    font-size: 24px;
+}
+#about:hover{
+    color:brown;
+}
 
 
 
@@ -79,6 +107,9 @@ body{
 
 /* The media queries */
 @media only screen and (max-width: 575px){
+    #main_content{
+    top: 20px;
+    }
 
 }
 
@@ -87,7 +118,12 @@ body{
     position:fixed;
 }
 #main_content{
-    top: 101px;
+    top: 200px;
+    min-height: 1000px;
+    }
+
+    #main_content img{
+        height: 400px;
     }
 
 }

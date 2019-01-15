@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="day_mode">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
     <title>Index</title>
@@ -135,18 +135,51 @@
         <!-- The content -->
 
         <div id="main_content" class="col-12 p-0 m-0">
-            <div class="col-12 col-lg-8 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit placeat nemo, dignissimos voluptatem porro
-                pariatur nisi perferendis culpa sunt quod temporibus nesciunt vero cupiditate autem provident repellat
-                ducimus cum amet!
+            <div class="col-12 col-lg-8 mx-auto" id="ajax_content">
+                <h2>Bienvenue</h2>
+
+            <p>
+                Ce site traite de Zelda: Breath of the Wild,jeu déjà mythique créé par Nintendo.
+                Nous relaterons ici des informations générales pour mieux appréhender cet opus si vaste et complet.
+                Que ce soit de l'histoire principale, des personnages ou du lore, le but de ce site est de parler d'un
+                jeu qui fait rêver des millions de joueurs afin de -peut-être- vous apprendre des choses!
+            </p>
+
+            <p>
+                Evidemment, en venant par-ici, vous vous exposez au très vilain SPOIL. Vous ne pourrez pas dire que
+                vous n'aviez pas été prévenu! J'espère que ceux qui ne connaissent pas le jeu ou même la
+                licence auront envie d'en apprendre plus, et peut-être même se lancer dans cette aventure
+                unique.
+            </p>
+
+            <p>
+                C'est un site de fan créé pour des fans ou des fans en devenir, et l'unique volonté
+                est de donner envie de parcourir Hyrule et de découvrir ses secrets, mais surtout ses
+                merveilles.
+            </p>
+
+
+            <p>
+                Je vous souhaite une agréable visite sur le site.
+            </p>
+
+            <p style="text-align:center">
+                <img src="images/fleur.png" class="img-fluid"></p>
+
+            </p>
+
             </div>
         </div>
 
 
         <!-- The footer -->
         <footer class="col-12 p-0 m-0">
-            <div class="col-12 col-lg-6 mx-auto p-0">
+            <div class="col-12 col-lg-6 mx-lg-auto p-0" id="footer_text">
                 Copyrights: All rights reserved.
+            </div>
+
+            <div class="col-12 col-lg-6 mx-lg-auto p-0" id="about" onclick="about()">
+               A Propos
             </div>
         </footer>
     </div>

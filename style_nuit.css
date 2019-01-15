@@ -1,0 +1,136 @@
+html{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(images/wallpaper2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/* The header */
+#header{
+    background-color: rgb(119, 200, 224);
+    z-index: 1000;
+}
+#header ul{
+    background-color: rgba(119, 199, 224, 0.87);
+    border:0;
+}
+#header ul li{
+    font-size: 20px;
+    text-align:center;
+}
+
+#logo{
+  height: 100px; 
+    
+}
+#hamburger_menu{
+    position: absolute;
+    top:34px;
+    right: 10px;
+    z-index: 1000;
+    border:0;
+    
+}
+@font-face{
+    font-family:"zelda";
+    src:url(images/The\ Wild\ Breath\ of\ Zelda.otf);
+}
+
+#menu1,#menu2,#menu3,#menu4{
+    font-family: zelda;
+    font-size: 25px;   
+}
+
+#menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover{
+    color:gold;
+}
+
+#switch_div{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    color:gold;
+    font-size: 40px;
+  
+}
+
+
+
+/* The content */
+#main_content{
+    width: 100%;
+  
+}
+
+h2{
+    font-family:zelda;
+    text-align: center;
+    font-size: 48px;
+    color:gold;
+    text-shadow: 1px 1px 1px black;
+}
+p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* The footer */
+
+footer #footer_text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid rgb(119, 200, 224);
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+#about{
+    text-align: center;
+    font-family: zelda;
+    font-size: 24px;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+#about:hover{
+    color:gold;
+}
+
+
+
+
+
+/* The media queries */
+@media only screen and (max-width: 575px){
+    #main_content{
+    top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 972px){
+#header{
+    position:fixed;
+}
+#main_content{
+    top: 200px;
+    min-height: 1000px;
+    }
+
+    #main_content img{
+        height: 400px;
+    }
+
+}
+
