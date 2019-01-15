@@ -1,5 +1,5 @@
 <h2>Les Sheikahs</h2>
-            <p style="text-align: center;  ">
+            <p style="text-align: center;">
                 <img src="images/impa.png" class="img-fluid" alt="">
             </p>
 
@@ -9,7 +9,9 @@
                 bonne santé.
             </p>
 
-            <p style="text-align: center"> <img src="images/eye.png" alt=""></p>
+            <p style="text-align:center"> 
+            <img src="images/eye.png" class="img-fluid" alt="">
+            </p>
 
             <p>Les sheikash ont un symbole: un oeil versant une larme surmonté de trois triangles.La signification
                 de ce symbole demeure un mystère, mais il est très présent dans leur culture et est souvent gravé
