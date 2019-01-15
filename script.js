@@ -113,6 +113,6 @@ function hyrule(){
     loadDoc("ajax/hyrule.txt","ajax_content");
 }
 //The about menu
-function hyrule(){
+function about(){
     loadDoc("ajax/about.txt","ajax_content");
 }
