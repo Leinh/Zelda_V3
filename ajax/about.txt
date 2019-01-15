@@ -1,0 +1,16 @@
+<h2>A propos de moi...</h2>
+
+<p>Je m'appelle Antoine et je suis en formation pour devenir developpeur web. Passionné autant par 
+Zelda que par internet, j'ai décidé de parler de cet univers fascinant pour ce premier site visant à 
+être contenu dans mon portefolio.</p>
+
+<p>Le but de ce site était bien évidemment de montrer le responsive, mais également de le coupler avec AJAX et 
+les cookies pour rendre l'expérience utilisateur agréable et visuellement attrayante. J'espère que cette visite
+aura été agréable pour vous. J'ai pris beaucoup de plaisir à concevoir ce site autant que son contenu.</p>
+
+<p> J'ai rédigé l'intégralité du texte moi-même. Les images sont des captures du jeu que j'ai modifié avec 
+Gimp pour donner cet effet destructuré et désordonné. Ce rendu est volontaire, je trouve en effet qu'il 
+suit à merveille avec un jeu aussi naturel et sauvage que ce Zelda. Le logo a été trouvé sur internet.</p>
+
+<p> Bien évidemment, bien que j'ai rédigé le texte, le contenu appartient à Nintendo. Ce site n'a pas pour vocation 
+d'être publié, mais c'est toujours bon de le préciser. </p>

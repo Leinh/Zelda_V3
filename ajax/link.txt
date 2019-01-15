@@ -33,7 +33,7 @@
                 devra la retrouver, mais également s'en montrer digne à nouveau.
             </p>
 
-            <p style="text-align:center; border:1px solid rgba(183, 206, 123, 0.74); width:550px; height:350px">
+            <p style="text-align:center;">
                 <img src="images/sword.gif" class="img-fluid" alt=""></p>
 
             <p>Il aura également la lourde tâche de reprendre le contrôle des créatures divines, bénédictions devenues

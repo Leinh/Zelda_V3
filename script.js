@@ -39,11 +39,11 @@ function night_mode() {
     }
 
     if (getCookie("css") == "nuit") {
-        css = 0;
+        css = 1;
         night_mode();
     }
     else if (getCookie("css") == "jour") {
-        css = 1;
+        css = 0;
         night_mode();
     }
 }
@@ -113,4 +113,6 @@ function hyrule(){
     loadDoc("ajax/hyrule.txt","ajax_content");
 }
 //The about menu
-
+function hyrule(){
+    loadDoc("ajax/about.txt","ajax_content");
+}

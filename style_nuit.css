@@ -132,5 +132,9 @@ footer #footer_text{
         height: 400px;
     }
 
+    iframe{
+        height: 450px;
+    }
+
 }
 

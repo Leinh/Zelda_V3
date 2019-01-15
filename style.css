@@ -85,6 +85,11 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+iframe{
+    height: 450px;
+}
+
+
 /* The footer */
 
 footer #footer_text{
@@ -124,6 +129,10 @@ footer #footer_text{
 
     #main_content img{
         height: 400px;
+    }
+
+    iframe{
+        height: 450px;
     }
 
 }

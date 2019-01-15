@@ -1,6 +1,6 @@
  <h2>Les Hyliens</h2>
 
-            <p style="text-align: center; width:600px; height:400px; ">
+            <p style="text-align: center; ">
                 <img src="images/hylien.png" class="img-fluid" alt=""></p>
 
             <p> Les Hyliens sont le peuple le plus représenté en Hyrule. Très similaires aux humains,
@@ -18,7 +18,7 @@
                 plus ou moins bien épargnés par le retour de Ganon.
             </p>
 
-            <p style="text-align: center; width:600px; height:400px; ">
+            <p style="text-align: center; ">
             <img src="images/elimith.png" class="img-fluid" alt=""></p>
 
 
