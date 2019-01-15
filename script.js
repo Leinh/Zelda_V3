@@ -68,51 +68,66 @@ function loadDoc(x, y) {
 //TThe index
 function index() {
     loadDoc("ajax/index.txt", "ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Index";
 }
 //First menu
 function histoire() {
     loadDoc("ajax/histoire.txt", "ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="L'histoire";
 }
 //Second menu
 function link() {
     loadDoc("ajax/link.txt", "ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Link";
 }
 function zelda() {
     loadDoc("ajax/zelda.txt", "ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Zelda";
 }
 function prodige() {
     loadDoc("ajax/prodige.txt", "ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les prodiges";
 }
 function ganon() {
     loadDoc("ajax/ganon.txt", "ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Ganon";
 }
 //Third menu
 function hylien(){
     loadDoc("ajax/hylien.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Hyliens";
 }
 function sheikah(){
     loadDoc("ajax/sheikah.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Sheikahs";
 }
 function zora(){
     loadDoc("ajax/zora.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Zoras";
 }
 function goron(){
     loadDoc("ajax/goron.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Gorons";
 }
 function piaf(){
     loadDoc("ajax/piaf.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Piafs";
 }
 function gerudo(){
     loadDoc("ajax/gerudo.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Gerudos";
 }
 function korogu(){
     loadDoc("ajax/korogu.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Les Korogus";
 }
 //The last menu
 function hyrule(){
     loadDoc("ajax/hyrule.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="Hyrule";
 }
 //The about menu
 function about(){
     loadDoc("ajax/about.txt","ajax_content");
+    document.getElementsByTagName("title")[0].innerHTML="A propos";
 }
