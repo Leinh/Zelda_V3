@@ -18,6 +18,7 @@ body{
 #header{
     background-color: rgb(183, 206, 123);
     z-index: 1000;
+    top:0;
 }
 #header ul{
     background-color: rgba(183, 206, 123, 0.657);
@@ -70,8 +71,9 @@ body{
 /* The content */
 #main_content{
     width: 100%;
-  
+ 
 }
+
 
 h2{
     font-family:zelda;
@@ -112,9 +114,10 @@ footer #footer_text{
 
 /* The media queries */
 @media only screen and (max-width: 575px){
-    #main_content{
-    margin-top: 20px;
-    }
+    #ajax_content{
+        margin-top: 40px;
+        position: initial;
+        }
 
 }
 
@@ -133,6 +136,11 @@ footer #footer_text{
 
     iframe{
         height: 450px;
+    }
+
+    #ajax_content{
+        margin-top: 200px;
+        position:initial;
     }
 
 }
