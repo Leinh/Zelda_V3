@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.6.3/css/all.css"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
@@ -19,10 +19,10 @@
 </head>
 
 <body>
-    <div class="container p-0 m-0">
+    <div class="container-fluid p-0 m-0">
 
         <!-- the header -->
-        <header id="header" class="row col-12 p-0 m-0 navbar navbar-expand-lg">
+        <header id="header" class="row col-12 p-0 m-0 navbar navbar-expand-lg navbar-light">
 
             <!-- The logo is first -->
             <div class="col-8  col-lg-2">
@@ -31,7 +31,8 @@
 
             <!-- hamburger button-->
             <button class="navbar-toggler p-0 m-0 col-3 offset-1 d-lg-none" type="button" data-toggle="collapse"
-                data-target="general_menu" aria-controls="general_menu" aria-expanded="false" aria-label="Toggle navigation">
+                data-target="#general_menu" aria-controls="#general_menu" aria-expanded="false" aria-label="Toggle navigation"
+                id="hamburger_menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -43,24 +44,26 @@
 
                     <!-- the first menu -->
                     <li class="nav-item">
-                        <div class="col-12 row  m-0 col-lg-2" id="menu1">
-                            <div class="nav-link">
-                                <div onclick="histoire()" class="mx-auto">
-                                    L'histoire
-                                </div>
+                        <div class="col-12 row  m-0 " id="menu1">
+
+                            <div onclick="histoire()" class="mx-auto">
+                                L'histoire
                             </div>
+
+                        </div>
+
                     </li>
 
                     <!-- The second one. This one contains a submenu. -->
-                    <li class="nav-item">
-                        <div class=" col-12 row  m-0 col-lg-2 dropdown " id="menu2">
+                    <li class="dropdown">
+                        <div class=" col-12 row  m-0  dropdown" id="menu2" data-toggle="dropdown">
 
-                            <div class=" dropdown-toggle d-none d-sm-block p-0 m-0" data-toggle="dropdown">
-                                Les Personnages
-                            </div>
-                            <ul class="dropdown-menu">
+                            <div class="mx-auto">Les Personnages</div>
+
+
+                            <ul class="dropdown-menu mx-auto col-12">
                                 <li>
-                                    <div class="dropdown-item col-12 " onclick="link()">Link</div>
+                                    <div class="dropdown-item col-12" onclick="link()">Link</div>
                                 </li>
                                 <li>
                                     <div class="dropdown-item col-12" onclick="zelda()">Zelda</div>
@@ -76,13 +79,13 @@
                         </div>
                     </li>
                     <!-- the third menu, that also contains a submenu. -->
-                    <li class="nav-item">
-                        <div class=" col-12 row  m-0 col-lg-2 dropdown" id="menu3">
+                    <li class="dropdown">
+                        <div class=" col-12 row  m-0  dropdown" id="menu3" data-toggle="dropdown">
 
-                            <div class=" dropdown-toggle d-none d-sm-block p-0 m-0 mx-auto" data-toggle="dropdown">
-                                Les Peuples
-                            </div>
-                            <ul class="dropdown-menu">
+
+                            <div class="mx-auto">Les Peuples</div>
+
+                            <ul class="dropdown-menu mx-auto col-12">
                                 <li>
                                     <div class="dropdown-item" onclick="hylien()">Les Hyliens</div>
                                 </li>
@@ -113,18 +116,39 @@
 
                     <!-- The last menu. -->
                     <li class="nav-item">
-                        <div class="col-12 row  m-0 col-lg-2 " id="menu4">
+                        <div class="col-12 row  m-0  " id="menu4">
                             <div onclick="hyrule()" class="mx-auto">
                                 Hyrule
                             </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            </li>
-            </ul>
-    </div>
 
-    </header>
 
+            <!-- This icon will allow the user to switch day/night modes -->
+
+            <i class="fas fa-lightbulb d-none d-lg-block" id="switch_div" onclick="night_mode()"></i>
+
+        </header>
+
+        <!-- The content -->
+
+        <div id="main_content" class="col-12 p-0 m-0">
+            <div class="col-12 col-lg-8 mx-auto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit placeat nemo, dignissimos voluptatem porro
+                pariatur nisi perferendis culpa sunt quod temporibus nesciunt vero cupiditate autem provident repellat
+                ducimus cum amet!
+            </div>
+        </div>
+
+
+        <!-- The footer -->
+        <footer class="col-12 p-0 m-0">
+            <div class="col-12 col-lg-6 mx-auto p-0">
+                Copyrights: All rights reserved.
+            </div>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>

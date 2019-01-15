@@ -8,7 +8,7 @@ body{
     margin: 0;
     width: 100%;
     background-image: url(images/wallpaper.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
 
 }
@@ -16,10 +16,27 @@ body{
 /* The header */
 #header{
     background-color: rgb(183, 206, 123);
+    z-index: 1000;
 }
+#header ul{
+    background-color: rgba(183, 206, 123, 0.657);
+    border:0;
+}
+#header ul li{
+    font-size: 20px;
+    text-align:center;
+}
+
 #logo{
   height: 100px; 
- 
+    
+}
+#hamburger_menu{
+    position: absolute;
+    top:34px;
+    right: 10px;
+    z-index: 1000;
+    border:0;
     
 }
 @font-face{
@@ -29,14 +46,30 @@ body{
 
 #menu1,#menu2,#menu3,#menu4{
     font-family: zelda;
-    font-size: 26px;  
-  
+    font-size: 25px;   
 }
 
 #menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover{
     color:brown;
 }
 
+#switch_div{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    
+    font-size: 40px;
+  
+}
+
+
+
+/* The content */
+#main_content{
+    width: 100%;
+}
 
 
 
@@ -46,15 +79,16 @@ body{
 
 /* The media queries */
 @media only screen and (max-width: 575px){
-body{
-    background-image: url(images/wallpaper.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-}
+
 }
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 972px){
 #header{
     position:fixed;
 }
+#main_content{
+    top: 101px;
+    }
+
 }
+
