@@ -29,23 +29,24 @@ var css = 0;
 function night_mode() {
     if (css == 0) {
         document.getElementById("day_mode").href = "style_nuit.css"
-        setCookie("css", "nuit", 2000);
+        setCookie("css", "nuit", 365);
         css = 1
     }
     else {
         document.getElementById("day_mode").href = "style.css"
-        setCookie("css", "jour", 2000);
+        setCookie("css", "jour", 365);
         css = 0;
     }
 
-    if (getCookie("css") == "nuit") {
-        css = 1;
-        night_mode();
-    }
-    else if (getCookie("css") == "jour") {
-        css = 0;
-        night_mode();
-    }
+}
+
+if (getCookie("css") == "nuit") {
+    css = 1;
+    night_mode();
+}
+else if (getCookie("css") == "jour") {
+    css = 0;
+    night_mode();
 }
 
 // Now the AJAX part. This one is particularly important since the website is imagined around this technology:
