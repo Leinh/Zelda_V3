@@ -25,7 +25,7 @@ function getCookie(cname) {
     return "";
 }
 // Cookies are linked with the switch mode function:
-var css = 1;
+var css = 0;
 function night_mode() {
     if (css == 0) {
         document.getElementById("day_mode").href = "style.css"
@@ -37,12 +37,12 @@ function night_mode() {
         setCookie("css", "nuit", 5);
         css = 0;
     }
-    if (getCookie("css") == "nuit") {
-        css = 1;
+    if (getCookie("css") == "jour") {
+        css = 0;
         night_mode();
     }
-    else if (getCookie("css") == "jour") {
-        css = 0;
+    else if (getCookie("css") == "nuit") {
+        css = 1;
         night_mode();
     }
 }
